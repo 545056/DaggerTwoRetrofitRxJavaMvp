@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import javax.inject.Inject;
+import javax.inject.Named;
 
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.LoginCtrl;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.LoginOutCtrl;
@@ -14,10 +15,16 @@ import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.module.LoginOutModule;
 
 public class MainActivity extends AppCompatActivity {
 
+    @Named("One")
     @Inject
-    protected LoginCtrl loginCtrl;
+    protected LoginCtrl loginCtrlOne;
+
+    @Named("Two")
     @Inject
-    LoginOutCtrl loginOutCtrl;
+    protected LoginCtrl loginCtrlTwo;
+
+//    @Inject
+//    LoginOutCtrl loginOutCtrl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +35,13 @@ public class MainActivity extends AppCompatActivity {
 //                loginModule(new LoginModule(this)).
 //                loginOutModule(new LoginOutModule(this)).build().inject(this);
 
-        DaggerLoginComponent.builder().loginModule(new LoginModule(this)).loginOutModule(new LoginOutModule(this)).build().inject(this);
+        DaggerLoginComponent.builder().
+                loginModule(new LoginModule(this)).
+                build().inject(this);
 //
         //调用方法
-        loginCtrl.login("admin", "admin");
-        loginOutCtrl.loginOut("admin", "admin");
+        loginCtrlOne.login("admin", "admin");
+        loginCtrlTwo.login("guest", "guest");
 
     }
 }

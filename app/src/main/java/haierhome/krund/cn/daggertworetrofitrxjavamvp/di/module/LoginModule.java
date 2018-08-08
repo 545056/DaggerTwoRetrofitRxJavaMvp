@@ -1,12 +1,14 @@
 package haierhome.krund.cn.daggertworetrofitrxjavamvp.di.module;
 
 import android.content.Context;
+import android.util.Log;
+
+import javax.inject.Named;
 
 import dagger.Module;
 import dagger.Provides;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.login.LoginService;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.login.LoginStore;
-import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.loginout.LoginOutStore;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.LoginCtrl;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.LoginOutCtrl;
 
@@ -15,7 +17,7 @@ import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.LoginOutCtrl;
  * 3写接口的module  提供实例化的对象
  */
 
-@Module(includes = LoginOutModule.class)
+@Module
 
 public class LoginModule {
 
@@ -37,8 +39,17 @@ public class LoginModule {
         return new LoginService();
     }
 
+    @Named("One")
     @Provides
-    public LoginCtrl provideLoginCtrl(LoginStore loginStore, LoginService loginService) {
+    public LoginCtrl provideLoginCtrlOne(LoginStore loginStore, LoginService loginService) {
+        Log.i("@@","One");
+        return new LoginCtrl(loginStore, loginService);
+   }
+
+    @Named("Two")
+    @Provides
+    public LoginCtrl provideLoginCtrlTwo(LoginStore loginStore, LoginService loginService) {
+        Log.i("@@","Two");
         return new LoginCtrl(loginStore, loginService);
     }
 }
