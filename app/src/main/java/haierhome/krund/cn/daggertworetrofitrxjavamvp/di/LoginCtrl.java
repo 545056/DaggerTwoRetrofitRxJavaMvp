@@ -1,7 +1,8 @@
 package haierhome.krund.cn.daggertworetrofitrxjavamvp.di;
 
-import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.LoginService;
-import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.LoginStore;
+
+import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.login.LoginService;
+import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.login.LoginStore;
 
 /**
  * 1写需要实例化的对象的类

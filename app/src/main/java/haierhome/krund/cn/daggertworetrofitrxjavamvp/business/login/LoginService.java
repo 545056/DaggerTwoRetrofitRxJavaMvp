@@ -1,8 +1,6 @@
-package haierhome.krund.cn.daggertworetrofitrxjavamvp.business;
+package haierhome.krund.cn.daggertworetrofitrxjavamvp.business.login;
 
 import android.util.Log;
-
-import javax.inject.Inject;
 
 /**
  * Created by Administrator on 2018/8/8.

@@ -4,8 +4,8 @@ import android.content.Context;
 
 import dagger.Module;
 import dagger.Provides;
-import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.LoginService;
-import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.LoginStore;
+import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.login.LoginService;
+import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.login.LoginStore;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.LoginCtrl;
 
 
