@@ -7,10 +7,14 @@ import javax.inject.Named;
 
 import dagger.Module;
 import dagger.Provides;
+import haierhome.krund.cn.daggertworetrofitrxjavamvp.annotation.One;
+import haierhome.krund.cn.daggertworetrofitrxjavamvp.annotation.Two;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.login.LoginService;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.login.LoginStore;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.LoginCtrl;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.LoginOutCtrl;
+
+import static android.os.Build.VERSION_CODES.N;
 
 
 /**
@@ -39,14 +43,14 @@ public class LoginModule {
         return new LoginService();
     }
 
-    @Named("One")
+    @One
     @Provides
     public LoginCtrl provideLoginCtrlOne(LoginStore loginStore, LoginService loginService) {
         Log.i("@@","One");
         return new LoginCtrl(loginStore, loginService);
    }
 
-    @Named("Two")
+    @Two
     @Provides
     public LoginCtrl provideLoginCtrlTwo(LoginStore loginStore, LoginService loginService) {
         Log.i("@@","Two");

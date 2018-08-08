@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import javax.inject.Inject;
 import javax.inject.Named;
 
+import haierhome.krund.cn.daggertworetrofitrxjavamvp.annotation.One;
+import haierhome.krund.cn.daggertworetrofitrxjavamvp.annotation.Two;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.LoginCtrl;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.LoginOutCtrl;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.component.DaggerLoginComponent;
@@ -15,11 +17,11 @@ import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.module.LoginOutModule;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Named("One")
+    @One
     @Inject
     protected LoginCtrl loginCtrlOne;
 
-    @Named("Two")
+    @Two
     @Inject
     protected LoginCtrl loginCtrlTwo;
 
