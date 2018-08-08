@@ -6,17 +6,21 @@ import dagger.Module;
 import dagger.Provides;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.login.LoginService;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.login.LoginStore;
+import haierhome.krund.cn.daggertworetrofitrxjavamvp.business.loginout.LoginOutStore;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.LoginCtrl;
+import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.LoginOutCtrl;
 
 
 /**
  * 3写接口的module  提供实例化的对象
  */
 
-@Module
+@Module(includes = LoginOutModule.class)
+
 public class LoginModule {
 
     private Context context;
+    private LoginOutCtrl loginOutCtrl;
 
 
     public LoginModule(Context context) {

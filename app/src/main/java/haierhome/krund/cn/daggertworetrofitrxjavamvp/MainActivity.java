@@ -24,10 +24,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        DaggerLoginComponent.builder().
-                loginModule(new LoginModule(this)).
-                loginOutModule(new LoginOutModule(this)).build().inject(this);
+//        DaggerLoginComponent.builder().
+//                loginModule(new LoginModule(this)).
+//                loginOutModule(new LoginOutModule(this)).build().inject(this);
 
+        DaggerLoginComponent.builder().loginModule(new LoginModule(this)).loginOutModule(new LoginOutModule(this)).build().inject(this);
+//
         //调用方法
         loginCtrl.login("admin", "admin");
         loginOutCtrl.loginOut("admin", "admin");
