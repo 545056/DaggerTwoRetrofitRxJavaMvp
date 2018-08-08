@@ -14,7 +14,6 @@ public class LoginStore {
 
     private Context context;
 
-    @Inject
     public LoginStore(Context context) {
         this.context = context;
     }

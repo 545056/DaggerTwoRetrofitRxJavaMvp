@@ -20,12 +20,17 @@ public class LoginModule {
 
 
     public LoginModule(Context context) {
-        this.context=context;
+        this.context = context;
     }
 
     @Provides
-    public Context provideContext(){
-        return context;
+    public LoginStore provideLoginStore() {
+        return new LoginStore(context);
+    }
+
+    @Provides
+    public LoginService provideLoginloginService() {
+        return new LoginService();
     }
 
     @Provides

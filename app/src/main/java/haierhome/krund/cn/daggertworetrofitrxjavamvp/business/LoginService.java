@@ -10,11 +10,9 @@ import javax.inject.Inject;
 
 public class LoginService {
 
-    //远程登录的处理方法
-    @Inject
     public LoginService() {
     }
-
+    //远程登录的处理方法
     public void logining(String username, String password) {
 
         Log.i("@@", "用户数据远程登入成功");

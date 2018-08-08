@@ -19,11 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//
-//        //初始化对象
-//        DaggerLoginComponent.
-//        //调用方法
-//        loginCtrl.login("admin","admin");
 
         DaggerLoginComponent.builder().loginModule(new LoginModule(this)).build().inject(this);
         //调用方法
