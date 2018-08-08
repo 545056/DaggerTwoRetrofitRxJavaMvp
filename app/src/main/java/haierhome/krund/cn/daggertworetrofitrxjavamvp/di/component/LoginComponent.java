@@ -9,7 +9,7 @@ import haierhome.krund.cn.daggertworetrofitrxjavamvp.di.module.LoginOutModule;
 /**
  * 2写组件接口 接口的方法参数 调用时必须对应
  */
-@Component(modules = LoginModule.class)
+@Component(modules = {LoginModule.class}, dependencies = LoginOutModule.class)
 public interface LoginComponent {
 
     void inject(MainActivity mainActivity);
