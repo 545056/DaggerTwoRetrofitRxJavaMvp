@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+//1导入apt 2build.gradle中导入类 3导入依赖类
+apply plugin: 'android-apt'
 
 android {
     compileSdkVersion 26
@@ -26,4 +28,10 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
     testCompile 'junit:junit:4.12'
+
+
+    //添加的第二部分,版本太高会导致编译失败，这里用2.8就可以了
+    compile 'com.google.dagger:dagger:2.8'      //dagger的api
+    apt "com.google.dagger:dagger-compiler:2.8"  //指定注解处理器
+    compile 'org.glassfish:javax.annotation:10.0-b28'  //Adnroid缺失的部分javax注解
 }
