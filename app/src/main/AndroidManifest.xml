@@ -12,6 +12,7 @@
         <activity android:name=".dagger.MainActivity" />
         <activity android:name=".basemvp.view.LoginView" />
         <activity android:name=".contractmvp.view.LoginView" />
+        <activity android:name=".daggermvp.view.LoginView" />
 
         <activity android:name=".TestActivity">
             <intent-filter>

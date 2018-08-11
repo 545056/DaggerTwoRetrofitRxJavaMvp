@@ -7,39 +7,56 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="86dc6a66-2773-4f3c-8c38-8414efcf7e56" name="Default" comment="baseMvp MVP原始框架&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/contract" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/presenter" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/view" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/TestActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/contract/ILoginContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/model/BaseModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/model/IBaseModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/model/LoginModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/presenter/BasePresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/presenter/IBasePresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/presenter/LoginPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/view/BaseView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/view/IBaseView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/view/LoginView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_base.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_base.xml" />
+    <list default="true" readonly="true" id="86dc6a66-2773-4f3c-8c38-8414efcf7e56" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/annotation" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/business" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/business/login" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/business/loginout" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/component" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/contract" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/di" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/annotation/One.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/annotation/Two.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/business/login/LoginService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/business/login/LoginStore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/business/loginout/LoginOutService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/business/loginout/LoginOutStore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/LoginCtrl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/LoginOutCtrl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/component/LoginComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/module/LoginModule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/module/LoginOutModule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/contract/ILoginContract.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/di/LoginComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/di/LoginModule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/BaseModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/IBaseModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/LoginModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/BasePresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/IBasePresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/LoginPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/BaseView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/IBaseView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/LoginView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/TestActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/TestActivity.java" />
     </list>
     <ignored path="DaggerTwoRetrofitRxJavaMvp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,94 +88,14 @@
     <favorites_list name="DaggerTwoRetrofitRxJavaMvp" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginModel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/model/LoginModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-              <folding>
-                <element signature="e#902#1389#0" expanded="true" />
-                <element signature="e#1388#1389#0" expanded="true" />
-                <element signature="e#2058#2059#0" expanded="true" />
-                <element signature="e#2104#2105#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/module/LoginModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/TestActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/business/login/LoginService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/business/login/LoginStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Annotation" />
-        <option value="ASInterface" />
         <option value="ASClass" />
+        <option value="ASInterface" />
       </list>
     </option>
   </component>
@@ -1950,8 +1887,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/scope/module/AppModule7.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/scope/activity/TargetActivity71.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/scope/app/App7.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/scope/component/ActivityComponent7.java" />
@@ -1981,26 +1916,28 @@
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/basemvp2/presenter/IBasePresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/basemvp2/presenter/base/IBasePresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/basemvp2/model/ILoginModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/IBasePresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/IBaseView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/BaseView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/BasePresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login_view.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/IBaseModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/BaseModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/contract/ILoginContract.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/LoginModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/LoginPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/basemvp2/presenter/LoginPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/basemvp2/presenter/base/BasePresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/LoginView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/view/BaseView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/module/LoginModule.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/TestActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/model/LoginModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/IBaseView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/IBasePresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/IBaseModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/BaseModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/di/LoginComponent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/LoginPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/LoginView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/BaseView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/BasePresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/LoginModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/di/LoginModule.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/TestActivity.java" />
       </list>
     </option>
   </component>
@@ -2206,6 +2143,7 @@
       <recent name="haierhome.krund.cn.daggertworetrofitrxjavamvp.scope" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\NewFrame\DaggerTwoRetrofitRxJavaMvp\app\src\main\java\haierhome\krund\cn\daggertworetrofitrxjavamvp" />
       <recent name="F:\NewFrame\DaggerTwoRetrofitRxJavaMvp\app\src\main\java\haierhome\krund\cn\daggertworetrofitrxjavamvp\daggermvp" />
       <recent name="F:\NewFrame\DaggerTwoRetrofitRxJavaMvp\app\src\main\java\haierhome\krund\cn\daggertworetrofitrxjavamvp\dagger" />
       <recent name="F:\NewFrame\DaggerTwoRetrofitRxJavaMvp\app\src\main\java\haierhome\krund\cn\daggertworetrofitrxjavamvp\scope\activity" />
@@ -2621,18 +2559,25 @@
       <option name="project" value="LOCAL" />
       <updated>1533810165792</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Contract MVP google写法&#10;">
+      <created>1533967515315</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1533967515315</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.045911048" sideWeight="0.15479274" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.070301294" sideWeight="0.85751295" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.85751295" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2640,7 +2585,7 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06456241" sideWeight="0.85751295" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32424676" sideWeight="0.8452073" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60832137" sideWeight="0.8452073" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2650,7 +2595,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33715925" sideWeight="0.4974093" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31476685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3031088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2671,7 +2616,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.045911048" sideWeight="0.15479274" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1779053" sideWeight="0.85751295" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.050215207" sideWeight="0.85751295" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2681,7 +2626,7 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06456241" sideWeight="0.85751295" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.045911048" sideWeight="0.8452073" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53596616" sideWeight="0.8452073" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2692,7 +2637,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33715925" sideWeight="0.4974093" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1904145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37176165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12625538" sideWeight="0.8801814" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -2722,7 +2667,8 @@
     <MESSAGE value="自定义Name注解&#10;" />
     <MESSAGE value="scope生命周期&#10;" />
     <MESSAGE value="baseMvp MVP原始框架&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="baseMvp MVP原始框架&#10;" />
+    <MESSAGE value="Contract MVP google写法&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contract MVP google写法&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2823,51 +2769,18 @@
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/LoginPresenter.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/business/loginout/LoginOutService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/business/loginout/LoginOutStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/annotation/One.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/annotation/Two.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_base.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/basemvp/view/IloginView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -2906,6 +2819,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="86" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3040,19 +2954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#287#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/presenter/LoginPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
@@ -3062,86 +2963,6 @@
             <element signature="e#651#652#0" expanded="false" />
             <element signature="e#685#686#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/contract/ILoginContract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/BaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/IBaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/BasePresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/IBasePresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/LoginPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/BaseView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/IBaseView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/LoginModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="20" column="183" selection-start-line="20" selection-start-column="183" selection-end-line="20" selection-end-column="183" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3158,7 +2979,7 @@
         <state relative-caret-position="-250">
           <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3204,10 +3025,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3219,52 +3037,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/module/LoginModule.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/model/LoginModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="-187">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding>
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#902#1389#0" expanded="false" />
+            <element signature="e#1388#1389#0" expanded="false" />
+            <element signature="e#2058#2059#0" expanded="false" />
+            <element signature="e#2104#2105#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/TestActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/LoginPresenter_Factory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/component/LoginComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="-29">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/contractmvp/model/LoginModel.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/module/LoginModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="-212">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/dagger/di/module/LoginOutModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
-            <element signature="e#902#1389#0" expanded="true" />
-            <element signature="e#1388#1389#0" expanded="true" />
-            <element signature="e#2058#2059#0" expanded="true" />
-            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/IBaseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/BaseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/view/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1587#1787#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/LoginPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#953#1197#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1300#1474#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/IBasePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/presenter/BasePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/LoginModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#633#1204#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/IBaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/model/BaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/di/LoginModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/di/LoginComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/daggermvp/contract/ILoginContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/haierhome/krund/cn/daggertworetrofitrxjavamvp/TestActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
   </component>
