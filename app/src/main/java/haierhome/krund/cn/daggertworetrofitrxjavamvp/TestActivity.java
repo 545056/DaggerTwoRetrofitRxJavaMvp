@@ -9,7 +9,9 @@ import android.widget.Button;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.basemvp.view.LoginView;
 import haierhome.krund.cn.daggertworetrofitrxjavamvp.dagger.MainActivity;
 
-
+/**
+ * https://blog.csdn.net/Sean_css/article/details/79624156  该篇博客
+ */
 public class TestActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button bt_dagger2, bt_basemvp, bt_contractmvp, bt_dagger2mvp;
